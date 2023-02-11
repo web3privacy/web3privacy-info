@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"prepare": "rm static/README.md && wget -O static/README.md https://raw.githubusercontent.com/Msiusko/web3privacy/main/README.md"
+		"prepare": "wget -O static/README.md https://raw.githubusercontent.com/Msiusko/web3privacy/main/README.md"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
