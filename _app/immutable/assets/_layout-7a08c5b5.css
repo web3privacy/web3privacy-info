@@ -506,11 +506,15 @@ video {
 .max-w-7xl {
   max-width: 80rem;
 }
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .pb-16 {
   padding-bottom: 4rem;
 }
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -518,6 +522,21 @@ video {
   .dark\:bg-\[\#0d1117\] {
     --tw-bg-opacity: 1;
     background-color: rgb(13 17 23 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }@media (prefers-color-scheme: dark) {
   .markdown-body {

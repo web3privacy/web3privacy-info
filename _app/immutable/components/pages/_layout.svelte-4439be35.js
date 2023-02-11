@@ -36,7 +36,7 @@ function create_fragment(ctx) {
       this.h();
     },
     h() {
-      attr(div0, "class", "max-w-7xl mx-auto pt-10 pb-16");
+      attr(div0, "class", "max-w-7xl mx-auto pt-6 md:pt-10 pb-16 px-4 xl:px-0");
       attr(div1, "class", "w-full dark:bg-[#0d1117]");
     },
     m(target, anchor) {
