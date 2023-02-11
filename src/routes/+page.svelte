@@ -3,7 +3,6 @@
     import HeaderRenderer from '$lib/HeaderRenderer.svelte';
     import LinkRenderer from '$lib/LinkRenderer.svelte';
 	export let data;
-
 </script>
 
 <svelte:head>
