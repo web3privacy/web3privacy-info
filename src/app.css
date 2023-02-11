@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .markdown-body img {
+        @apply dark:invert;
+    }
+    .markdown-body img[width="20"] {
+        display: inline-block;
+        @apply dark:invert-0;
+    }
+    .markdown-body ul {
+        list-style: initial;
+        margin: initial;
+        padding: 0 0 0 40px;
+    }
+    .markdown-body li {
+        display: list-item;
+    }
+}
