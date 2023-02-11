@@ -7,7 +7,7 @@
     const { slug, getOptions } = getContext(key)
     const options = getOptions()
     $: id = options.headerIds
-      ? options.headerPrefix + slug(text)
+      ? options.headerPrefix + slug(text).toLowerCase()
       : undefined
   </script>
   

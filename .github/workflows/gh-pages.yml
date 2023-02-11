@@ -25,6 +25,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - run: npm run prepare
+
       - name: Build
         run: npm run build
 
